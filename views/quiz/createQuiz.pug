@@ -1,0 +1,28 @@
+extends layout 
+
+block content 
+    h1 CREATE QUIZ 
+
+    form.styleForm(action="/quiz/createquizzer" method="POST") 
+
+        div.styleInnerForm
+            input(type="text" name="quizName" placeholder="Quiz Name")
+
+            input(type="text" name="question" placeholder="Question")
+
+        div.styleInnerForm
+            input(type="text" name="rightAnswer" placeholder="Right Answer")
+
+        div.styleInnerForm
+            input(type="text" name="otherOption1" placeholder="Other Option")
+
+            input(type="text" name="otherOption2" placeholder="Other Option")
+
+            input(type="text" name="otherOption3" placeholder="Other Option")
+
+        div.styleInnerForm
+            button.formButtonStyle(type="sumbit") Create quiz
+
+
+    div.styleButton
+        a(href="quizzer").underForm See available quizzes

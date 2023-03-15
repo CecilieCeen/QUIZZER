@@ -1,0 +1,50 @@
+.styleInnerForm {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+body {
+    background-color: rgb(126, 158, 160);
+}
+
+h1 {
+    text-align: center;
+    margin: 70px;
+    color: white;
+}
+
+.styleForm {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.formButtonStyle {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(50, 79, 81);
+    color: white;
+    border-color: transparent;
+    text-align: center;
+}
+
+.styleButton {
+    display: flex;
+    justify-content: center;
+}
+
+.underForm {
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
